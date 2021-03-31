@@ -1,4 +1,7 @@
+require_relative '../lib/environment.rb'
+
 class Plant
+  
   attr_accessor :garden, :name
 
   @@all = []
